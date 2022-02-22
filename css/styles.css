@@ -71,7 +71,7 @@ body {
     justify-content: space-between;
     width: 50%;
 }
-.titlebar {
+.title-bar {
     padding: 10px;
 }
 .nav-bar-link {
@@ -81,8 +81,29 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
-
-.midsection {
+.discover-container {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+.line {
+    background-color: #18191F;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 20%;
+    height: 2px;
+}
+.play-button {
+    width: 48px;
+    height: 48px;
+}
+.discover-text {
+    font-family: Inter-ExtraBold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.mid-section {
     background-color: white;
     color: black;
     display: flex;
@@ -93,12 +114,12 @@ body {
     padding-bottom: 0px;
     justify-content: space-between;
 }
-.midsection-image-background {
+.mid-section-image-background {
     background-color: white;
     padding: 9.5%;
     background-size: cover;
 }
-.midsection-image {
+.mid-section-image {
     width: 100%;
     text-align: center;
     padding: 0%;
@@ -126,9 +147,12 @@ body {
     height: 72px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center;    
+    justify-content: space-between;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
 }
+
 .footer-text {
     color: white;
     font-family: Inter-Regular;
