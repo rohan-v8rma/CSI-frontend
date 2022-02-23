@@ -19,6 +19,10 @@ html,
 body {
     height: 100%;
 }
+.frame {
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+}
 .parent {
     display: flex;
     flex-direction: row;
@@ -41,7 +45,7 @@ body {
     line-height: 98px;
     padding-right: 18.5%;
     margin: 0px;
-    padding-top: 200px;
+    padding-top: 30%;
     
 }
 .below-hero-text {
@@ -54,7 +58,7 @@ body {
     padding-right: 2%;
 }
 .bottom-padding {
-    padding-bottom: 200px;
+    padding-bottom: 40%;
 }
 .nav-bar-container {
     flex: 1;
@@ -110,16 +114,14 @@ body {
     color: black;
     display: flex;
     flex-direction: row;
-    padding-left: 9.5%;
-    padding-right: 9.5%;
     padding-top: 25px;
     padding-bottom: 0px;
     justify-content: space-between;
 }
 .mid-section-image-background {
     background-color: white;
-    padding: 9.5%;
     background-size: cover;
+    padding-bottom: 5%;
 }
 .mid-section-image {
     width: 100%;
@@ -151,8 +153,6 @@ body {
     flex-direction: row;
     align-items: center;    
     justify-content: space-between;
-    padding-left: 9.5%;
-    padding-right: 9.5%;
 }
 
 .footer-text {
